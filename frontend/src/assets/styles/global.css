@@ -1,0 +1,72 @@
+/* #region Fonts */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* #endregion Fonts */
+
+/* #region Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e9e9e9;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cdcdcd;
+}
+/* #endregion Scrollbar */
+
+/* #region Variables */
+:root {
+  --color-primary: #3f6189; /* Main brand color */
+  --color-bg: #fbfbfb;
+  --color-error: #dc2626;
+  --font-family: "Quicksand", sans-serif;
+}
+/* #endregion Variables */
+
+* {
+  font-family: var(--font-family);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-size: 0.875rem; /* 14px */
+  color: #212325;
+}
+
+.error {
+  color: var(--color-error);
+  text-align: center;
+}
+
+.react-tabs__tab--selected {
+  border-bottom-width: 2px;
+  border-color: var(--color-primary);
+  outline: none;
+  color: black;
+}

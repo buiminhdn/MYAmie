@@ -1,0 +1,40 @@
+.filter_modal {
+  right: 0;
+  left: 0;
+  margin: auto !important;
+  top: 0;
+  bottom: 0;
+  max-height: 90vh;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm_modal {
+  right: 0;
+  left: 0;
+  margin: auto !important;
+  top: 0;
+  bottom: 0;
+  max-height: 90vh;
+  height: fit-content;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter_modal_overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

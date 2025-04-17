@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-size-sm: 1rem;
+
+  --color-primary: #3f6189; /* Deep Blue */
+  --color-primary-light: #d5e9f9; /* Soft Blue */
+  --color-primary-lighter: #ebf4fb; /* Lightest Blue */
+
+  --color-background: #fbfbfb; /* Background */
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4;
+    /* Or use max-width if you need specific sizing */
+    /* max-width: 1200px; */
+  }
+}
